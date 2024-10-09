@@ -3,7 +3,7 @@ import DiscoverPage from './components/DiscoverPage';
 import DetailsPage from './components/DetailsPage';
 import './App.css';
 import { useState } from 'react';
-import Sidebar from './components/sidebar';
+import Sidebar from './components/Sidebar';
 
 const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
