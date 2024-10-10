@@ -17,7 +17,7 @@ const App = () => {
       <div className='container'>
         <Sidebar isOpen = {isSidebarOpen} toggleSidebar = {toggleSidebar}/>
         <Routes>
-          <Route path = "/discover" element = {<DiscoverPage isSidebarOpen = {isSidebarOpen}/>} />
+          <Route path = "/" element = {<DiscoverPage isSidebarOpen = {isSidebarOpen}/>} />
           <Route path = "/page/:articleId" element = {<DetailsPage  isSidebarOpen = {isSidebarOpen}/>} /> 
         </Routes>
       </div> 

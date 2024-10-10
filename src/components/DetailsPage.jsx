@@ -19,7 +19,7 @@ const DetailsPage = ({isSidebarOpen}) => {
     {isSidebarOpen ? (
     <div className='discover-container2'>
       <div className = 'details-navbar'>
-        <Link to = "/discover" className='link'>
+        <Link to = "/" className='link'>
         <HiArrowSmLeft className='home-arrow'/>
         </Link>
         <p>...</p>
