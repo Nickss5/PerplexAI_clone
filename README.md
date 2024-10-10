@@ -31,7 +31,6 @@ This project is the **UI of a Perplexity AI Clone**, designed to provide a clean
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/perplexity-ai-clone-ui.git
-  ```bash
    cd perplexity-ai-clone-ui
    npm install
    npm start
