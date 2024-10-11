@@ -15,7 +15,7 @@ const App = () => {
   return (  
     <Router> 
       <div className='container'>
-        <Sidebar isOpen = {isSidebarOpen} toggleSidebar = {toggleSidebar}/>
+        <Sidebar isSidebarOpen = {isSidebarOpen} toggleSidebar = {toggleSidebar}/>
         <Routes>
           <Route path = "/" element = {<DiscoverPage isSidebarOpen = {isSidebarOpen}/>} />
           <Route path = "/page/:articleId" element = {<DetailsPage  isSidebarOpen = {isSidebarOpen}/>} /> 
