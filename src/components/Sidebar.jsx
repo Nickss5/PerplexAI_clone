@@ -11,10 +11,10 @@ import logo from '../assets/logo.png';
 import { MdOutlinePhoneIphone } from "react-icons/md";
 
 // eslint-disable-next-line react/prop-types
-const Sidebar = ({isOpen, toggleSidebar}) => {
+const Sidebar = ({isSidebarOpen, toggleSidebar}) => {
   return (  
     <>
-    {isOpen ? (
+    {isSidebarOpen ? (
         <div className='sidebar-open'>
             <div className='sidebar-upper'>
                 <div className = "label">
